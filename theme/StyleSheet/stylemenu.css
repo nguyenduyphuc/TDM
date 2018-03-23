@@ -1,0 +1,108 @@
+.menutop{
+	padding: 0 15px;
+	    border: 1px solid #e6e6e6;
+    border-bottom: 0;
+    box-shadow: 0px -2px 4px #E9E9E9;
+}
+.icon-nav{
+	float: left;
+	margin: 2px 7px 0px 5px;
+}
+.icon-bar{
+	font-weight: bold;
+	display: block;
+    width: 23px;
+    height: 3px;
+    border-radius: 1px;
+    background: #f58715;
+    margin: 4px;
+}
+.menutop,.nav-bar{
+	/*display: none;*/
+    width: 215px;
+    /*position: absolute;*/
+    z-index: 101;
+    list-style: none;
+    margin: 0;
+    /*padding: 0;*/
+    background: #fafafa;
+    /*padding: 10px 0 10px 15px;
+    margin-top: 10px;*/
+    padding: 0px 0px 10px 15px;
+    margin-top: -1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #e6e6e6;
+    border-top: 0;
+    box-shadow: 0px 2px 4px #E9E9E9;
+}
+.menutop{
+	box-shadow: 0px -2px 4px #E9E9E9;
+	padding: 10px 10px 10px 15px;
+}
+.menutop span{
+    font-weight: bold;
+    font-size: 18px;
+    color: #f58715;
+    margin-top: 2px;
+}
+.nav-bar{
+	position: relative;
+}
+.nav-bar ul{
+	list-style-type: none;
+	padding-left: 10px;
+	/*padding-right: 10px;*/
+}
+.nav-bar span{
+	font-size: 12px;
+	color: gray;
+}
+.title-menu-item{
+	background: url(../images/menu-arrow.png) center right no-repeat;
+}
+.li-father:hover .title-menu-item{
+	background: url(../images/menu-arrow-hover.png) center right no-repeat;
+}
+.title-menu-item{
+	font-size: 15px;
+}
+.nav-bar li:hover .title-menu-item{
+	color: #F1592A;
+}
+.nav-bar li:hover span{
+	color: #53B9D6;
+}
+.bd-bt-menu{
+    border-bottom: 1px solid #dcdcdc;
+}
+.sub-menu h3{
+	font-size: 15px;
+    font-weight: bold;
+    line-height: 1.25;
+    margin-bottom: 5px;
+}
+.sub-menu{
+	display: none;
+    left: 99.5%;
+    top: -1px;
+    width: 508px;
+    min-height: 386px;
+    padding: 10px 30px;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;
+    border-left: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 2;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.li-father{
+	padding-right: 10px !important;
+	padding: 15px 0px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.li-father:hover .sub-menu{
+	display: block;
+	position: absolute;
+}
